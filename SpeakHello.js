@@ -28,5 +28,5 @@
 	helloSpeaker.speak = function () {
 		console.log ("hello" + names[i]);
 	}
-	window.speak = helloSpeaker;
+	window.helloSpeaker = helloSpeaker;
 })(window);

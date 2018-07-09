@@ -29,5 +29,5 @@
 	byeSpeaker.speak = function () {
 		console.log ("Good Bye" + names[i]);
 	}
-	window.speak = byeSpeaker;
+	window.byeSpeaker = byeSpeaker;
 })(window);
